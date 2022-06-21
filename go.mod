@@ -1,4 +1,4 @@
-module github.com/notnil/chess
+module github.com/rhinoxi/chess
 
 go 1.18
 

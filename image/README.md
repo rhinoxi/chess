@@ -50,8 +50,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/notnil/chess"
-	"github.com/notnil/chess/image"
+	"github.com/rhinoxi/chess"
+	"github.com/rhinoxi/chess/image"
 )
 
 func main() {

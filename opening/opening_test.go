@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/notnil/chess"
-	"github.com/notnil/chess/opening"
+	"github.com/rhinoxi/chess"
+	"github.com/rhinoxi/chess/opening"
 )
 
 func ExampleFind() {

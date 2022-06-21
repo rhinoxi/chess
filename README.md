@@ -1,8 +1,8 @@
 # chess
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/notnil/chess)
-[![Coverage Status](https://coveralls.io/repos/notnil/chess/badge.svg?branch=master&service=github)](https://coveralls.io/github/notnil/chess?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/notnil/chess)](https://goreportcard.com/report/notnil/chess)
-[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/notnil/chess/master/LICENSE)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/rhinoxi/chess)
+[![Coverage Status](https://coveralls.io/repos/rhinoxi/chess/badge.svg?branch=master&service=github)](https://coveralls.io/github/rhinoxi/chess?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/rhinoxi/chess)](https://goreportcard.com/report/rhinoxi/chess)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/rhinoxi/chess/master/LICENSE)
 
 ## Introduction
 
@@ -15,17 +15,17 @@
 
 | Package | Docs Link | Description |
 | ------------- | ------------- | ------------- |
-| **chess**  | [notnil/chess](README.md)  | Move generation, serialization / deserialization, turn management, checkmate detection  |
-| **image**  | [notnil/chess/image](image/README.md)  | SVG chess board image generation  |
-| **opening**  | [notnil/chess/opening](opening/README.md)  | Opening book interactivity  |
-| **uci**  | [notnil/chess/uci](uci/README.md)  | Universal Chess Interface client  |
+| **chess**  | [rhinoxi/chess](README.md)  | Move generation, serialization / deserialization, turn management, checkmate detection  |
+| **image**  | [rhinoxi/chess/image](image/README.md)  | SVG chess board image generation  |
+| **opening**  | [rhinoxi/chess/opening](opening/README.md)  | Opening book interactivity  |
+| **uci**  | [rhinoxi/chess/uci](uci/README.md)  | Universal Chess Interface client  |
 
 ## Installation
 
 **chess** can be installed using "go get".
 
 ```bash
-go get -u github.com/notnil/chess
+go get -u github.com/rhinoxi/chess
 ``` 
 
 ## Usage
@@ -39,7 +39,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/notnil/chess"
+	"github.com/rhinoxi/chess"
 )
 
 func main() {
@@ -83,8 +83,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/notnil/chess"
-	"github.com/notnil/chess/uci"
+	"github.com/rhinoxi/chess"
+	"github.com/rhinoxi/chess/uci"
 )
 
 func main() {
@@ -456,7 +456,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/notnil/chess"
+	"github.com/rhinoxi/chess"
 )
 
 func main() {
